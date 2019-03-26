@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="MainRWB">#eee</color>
+    <color name="Hint">#808080</color>
+    <color name="grey_10">#ffe6e6e6</color>
+    <color name="grey_80">#ff37474f</color>
+
+    <color name="theme_primary">#2196F3</color>
+</resources>

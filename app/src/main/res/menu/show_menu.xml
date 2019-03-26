@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_copy"
+        android:icon="@drawable/ic_copy"
+        android:orderInCategory="100"
+        android:title="@string/copy_to_clipboard"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_mark"
+        android:icon="@drawable/ic_unmarked"
+        android:orderInCategory="100"
+        android:title="@string/mark"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_Apron"
+        android:checkable="true"
+        android:checked="false"
+        android:orderInCategory="100"
+        android:title="@string/auto_pronounce" />
+</menu>

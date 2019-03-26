@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_text_reading"
+            android:icon="@drawable/ic_long_text"
+            android:title="@string/text_reading" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/favorite_vocabs" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history"
+            android:title="@string/search_history" />
+    </group>
+
+    <item android:title="@string/flash_cards">
+        <menu>
+            <item
+                android:id="@+id/nav_flash_cards"
+                android:icon="@drawable/ic_cards"
+                android:title="@string/flash_cards" />
+            <item
+                android:id="@+id/nav_review"
+                android:icon="@drawable/ic_review"
+                android:title="@string/review" />
+            <!--todo add today's cards-->
+            <item
+                android:id="@+id/nav_dictation"
+                android:icon="@drawable/ic_dictation"
+                android:title="@string/dictation_trainer" />
+            <item
+                android:id="@+id/nav_Memorize"
+                android:icon="@drawable/ic_memorize"
+                android:title="@string/memorize_box" />
+        </menu>
+    </item>
+
+</menu>

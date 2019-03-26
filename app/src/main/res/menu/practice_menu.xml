@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Pru"
+        android:orderInCategory="100"
+        android:checkable="true"
+        android:checked="false"
+        android:title="@string/auto_pronounce"/>
+    <item
+        android:id="@+id/Slide"
+        android:checkable="true"
+        android:checked="false"
+        android:orderInCategory="100"
+        android:title="@string/slideshow"/>
+    <item
+        android:id="@+id/Delay"
+        android:orderInCategory="100"
+        android:title="@string/set_delay"/>
+    <item
+        android:id="@+id/Refresh"
+        android:orderInCategory="100"
+        android:title="@string/refresh_cards"/>
+    <item
+        android:id="@+id/Reverse"
+        android:orderInCategory="100"
+        android:title="@string/reverse_items"/>
+    <item
+        android:id="@+id/Add"
+        android:orderInCategory="100"
+        android:title="@string/add_to_memorize_box"/>
+
+</menu>
