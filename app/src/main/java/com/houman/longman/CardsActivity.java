@@ -196,6 +196,7 @@ public class CardsActivity extends AppCompatActivity
                 {
                 VocabList.add(m.getWord());
                 LocalData.add(new mMemorize(m.getWord(),"",m.getStep(),""));
+                Toast.makeText(this, "djsfkdsjfb", Toast.LENGTH_SHORT).show();
                 }
             }
         //todo use RandOrder method
